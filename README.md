@@ -13,4 +13,5 @@ Análisis de Datos en Bienes Raíces:
   - Si buscás alquiler o propiedades en venta también ofrezo un servicio personalizado por un costo mínimo: [conactame](https://t.me/Asistente_propiedades_bot)
 
 Una pequeña diapo de como funciona por detrás el programa, solamente el Paso 3 es el que se encuentra subido
-![image](https://github.com/LucianoArgolo22/RealState_Bi/assets/75091406/0faf2eeb-66aa-4f42-88b9-64afc098b086)
+![image](https://github.com/LucianoArgolo22/RealState_Bi/assets/75091406/efe25577-f65d-4df1-85c5-f8f0f78f31ed)
+
