@@ -1,0 +1,39 @@
+version: '3.3'
+services:
+    mysql:
+        container_name: mysql
+        ports:
+            - '3306:3306'
+        volumes:
+            - 'db_data:/var/lib/mysql'
+        environment:
+            - MYSQL_ROOT_PASSWORD=password
+        image: 'mysql:latest'
+        restart: always
+        networks: 
+            - grafana-mysql-scrapper_cleaner
+    grafana:
+        environment:
+            - GF_LOG_MODE=console
+            - GF_LOG_LEVEL=info
+        container_name: grafana
+        ports:
+            - '3001:3000'
+        volumes:
+            - 'grafana_config:/etc/grafana'
+            - 'grafana_data:/var/lib/grafana'
+            - 'grafana_logs:/var/log/grafana'
+        image: grafana/grafana
+        networks: 
+            - grafana-mysql-scrapper_cleaner
+        restart: always
+
+
+networks: 
+    grafana-mysql-scrapper_cleaner:
+        name: grafana-mysql-scrapper_cleaner
+volumes:
+  grafana_config:
+  grafana_data:
+  grafana_logs:
+  db_data:
