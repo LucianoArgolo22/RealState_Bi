@@ -1,7 +1,7 @@
 ### Si crees que ésto te sirvió o ayudó, tanto con el código, como a encontrar alquileres o poder saber mejor qué precios se manejan (siempre esa fue la idea).
 ### Te dejo este link para una pequeña contribución que en lo personal significa un gran reconocimiento: 
   
-### [Cafecito/contribución](https://cafecito.app/my_account/profile) 
+### [Cafecito/contribución](https://cafecito.app/realstatedata) 
 
 En el Repo actual gran parte de la extracción de datos la quité, podrán encontrar la parte de análisis de datos, si bien la misma habría que adaptarla dado que es una serie de procesos seguidos uno de otros que se ejecutan continuamente.
 Entendiendo la necesidad de poder validar si los datos son reales dejé gran parte del repo incluso con un archivo de un docker file y un docker compose si quisieran levantar por detrás todo lo que está corriendo.
